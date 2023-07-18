@@ -1,73 +1,154 @@
 @media screen and (max-width:576px) {
- nav{
+    nav {
         flex-direction: column;
         gap: 0px;
-        
+
     }
 
-    header{
+    header {
         height: auto;
     }
 
-    nav ul{
+    nav ul {
         flex-direction: column;
         gap: 40px;
         margin: 62px 0 0 0;
     }
 
-    .follow-btn{
-        margin:22px 0 0 0 ;
+    .follow-btn {
+        margin: 22px 0 0 0;
     }
+
+    /* main section */
+
+    .sec1 {
+        flex-direction: column;
+        padding: 0 24px 14px 24px;
+        height: auto;
+        align-items: center;
+    }
+
+    .left {
+        background-position-x: 70%;
+        width: 90%;
+        padding: 20px;
+    }
+
+    .btns button {
+        color: rgb(255, 255, 255);
+        padding: 21px 31px;
+    }
+
+    .icons {
+        width: auto;
+    }
+
+    .right img {
+        width: 434px;
+        margin: 14px 0 0 0;
+    }
+
+
 }
 
 
 @media screen and (min-width:576px) and (max-width:768px) {
-    nav{
-           flex-direction: column;
-           gap: 0px;
-          
-       }
-   
-      
-   
-       nav ul{
-          
-           margin: 62px 0 00 0;
-           
-       }
-   
-      
-   }
-
-   @media screen and (min-width:768px) and (max-width:992px) {
-    nav{
+    nav {
         flex-direction: column;
         gap: 0px;
-        
+
     }
 
-   
 
-    nav ul{
-       
+
+    nav ul {
+
+        margin: 62px 0 00 0;
+
+    }
+
+    /* main section */
+
+    .sec1 {
+        flex-direction: column;
+        padding: 0 24px 14px 24px;
+        height: auto;
+        align-items: center;
+    }
+
+    .left {
+        background-position-x: 52%;
+        width: 90%;
+        padding: 20px;
+    }
+
+    .icons {
+        width: auto;
+    }
+
+    .right img {
+        width: 434px;
+        margin: 14px 0 0 0;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    nav {
+        flex-direction: column;
+        gap: 0px;
+
+    }
+
+
+
+    nav ul {
+
         margin: 62px 0 00 0;
         gap: 90px;
     }
 
-   }
-   
+    /* main section */
 
-   @media screen and (min-width:992px) and (max-width:1200px) {
-    nav{
+    .sec1 {
+        flex-direction: column;
+        padding: 0 24px 14px 24px;
+        height: auto;
+        align-items: center;
+    }
+
+    .left {
+        background-position-x: 52%;
+        width: 90%;
+        padding: 20px;
+    }
+
+    .icons {
+        width: auto;
+    }
+
+    .right img {
+        width: 434px;
+        margin: 14px 0 0 0;
+    }
+
+
+
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    nav {
         gap: 300px;
-        
-       }
 
-       .logo h1 {
-        
+    }
+
+    .logo h1 {
+
         font-size: 30px;
-        
-    
+
+
     }
 
     .follow-btn {
@@ -75,28 +156,52 @@
         gap: 10px;
         padding: 17px 5px;
         border-radius: 8px;
-        
-    
+
+
     }
-   
-     
-   
+
     
-      
-   }
+    .sec1 {
+        /* flex-direction: column; */
+        padding: 0 24px 14px 24px;
+        height: auto;
+        align-items: center;
+    }
+
+    .left {
+        background-position-x: 52%;
+        width: 90%;
+        padding: 20px;
+    }
+
+    .icons {
+        width: auto;
+    }
+
+    .right img {
+        width: 434px;
+        margin: 14px 0 0 0;
+    }
+    
 
 
-   @media screen and (min-width:1200px) and (max-width:1400px) {
-    nav{
+
+
+
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    nav {
         gap: 300px;
         margin: 20px 0 00 0;
-       }
+    }
 
-       .logo h1 {
-        
+    .logo h1 {
+
         font-size: 30px;
-        
-    
+
+
     }
 
     .follow-btn {
@@ -104,25 +209,112 @@
         gap: 10px;
         padding: 17px 10px;
         border-radius: 8px;
-        
-    
+
+
     }
 
-    .fa-youtube , .fa-tiktok {
-      
+    .fa-youtube,
+    .fa-tiktok {
+
         font-size: 18px;
     }
+
+
+
+    .sec1 {
+        /* flex-direction: column; */
+        padding: 0 24px 14px 24px;
+        height: auto;
+        align-items: center;
+    }
+
+    .left {
+        background-position-x: 52%;
+        width: 90%;
+        padding: 20px;
+    }
+
+    .icons {
+        width: auto;
+    }
+
+    .right img {
+        width: 434px;
+        margin: 14px 0 0 0;
+    }
+
+
+
+
+
+
+
+}
+
+
+
     
-   
-   
-     
-   
+
+@media screen and (min-width:1400px) and (max-width:1650px) {
+    nav {
+        gap: 300px;
+        margin: 20px 0 00 0;
+    }
+
+    .logo h1 {
+
+        font-size: 30px;
+
+
+    }
+
+    .follow-btn {
+        display: flex;
+        gap: 10px;
+        padding: 17px 10px;
+        border-radius: 8px;
+
+
+    }
+
+    .fa-youtube,
+    .fa-tiktok {
+
+        font-size: 18px;
+    }
+
+
+
+    .sec1 {
+        /* flex-direction: column; */
+        padding: 0 24px 14px 24px;
+        height: auto;
+        align-items: center;
+    }
+
+    .left {
+        background-position-x: 52%;
+        width: 53%;
+        padding: 20px;
+    }
+
+    .icons {
+        width: auto;
+    }
+
+    .right img {
+        width: 434px;
+        margin: 14px 0 0 0;
+    }
+
+
+
+
+
+
+
+}
+
+
+
     
-      
-   }
-
-
-
-
-
-

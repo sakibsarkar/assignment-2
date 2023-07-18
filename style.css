@@ -24,7 +24,7 @@ nav {
     align-items: center;
     width: 100%;
     gap: 681.96px;
-    
+
 }
 
 nav ul {
@@ -40,7 +40,7 @@ nav ul a {
     text-align: center;
     font-family: Work Sans;
     font-size: 18px;
-    
+
     font-weight: 500;
 
 }
@@ -109,3 +109,109 @@ nav ul li:hover {
     font-size: 25px;
     -webkit-text-stroke: 2px #00f2ea;
 }
+
+
+/* main section */
+
+.sec1{
+    display: flex;
+    justify-content: space-between;
+   
+    gap: 24px;
+    height: 700px;
+    overflow: hidden;
+}
+
+.left {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 901px;
+    background-image: url("./images/Group 14.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.tittles>h2 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.tittles>h1 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.icons {
+
+    margin: 10px 0 0 35px;
+    width: 39.62%;
+
+}
+
+.icons>div {
+    margin-top: 14px;
+}
+
+.text-icon>P {
+    display: inline;
+    margin: 0 0 0 7px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+
+    font-weight: 500;
+
+}
+
+.btns {
+margin: 41px 0 0 0;
+display: flex;
+gap: 24px;
+}
+
+.btns button {
+    color: rgb(255, 255, 255);
+    padding: 21px 40px;
+    border: none;
+    border-radius: 48px;
+    font-family: Work Sans;
+    font-size: 20px;
+    
+    font-weight: 600;
+
+}
+
+.btn-1 {
+
+    background: #FF42A5;
+
+}
+
+.btn-1:hover{
+    background: transparent;
+    box-shadow: inset 150px 0  #FF42A5 ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-2 {
+
+    background: #4EC5F7;
+
+}
+
+
