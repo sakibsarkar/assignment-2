@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    height: auto;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 38px 0;
+}
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 681.96px;
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav ul a {
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    
+    font-weight: 500;
+
+}
+
+
+nav ul li:hover {
+    border-bottom: 1px solid red;
+    transition: 0.5s;
+    padding: 0 0 5px 0;
+
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.G {
+    color: #ff42f1;
+}
+
+.logo h1 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+
+}
+
+.follow-btn {
+
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    gap: 14px;
+    padding: 17px 24px;
+    border-radius: 8px;
+    transition: 0.3s;
+
+}
+
+.follow-btn:hover {
+    cursor: pointer;
+    background: rgba(11, 2, 35, 0.342);
+    transition: 0.5s;
+}
+
+.follow-btn p {
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+
+    font-weight: 500;
+
+}
+
+.fa-youtube {
+    color: red;
+    font-size: 25px;
+}
+
+.fa-tiktok {
+    color: #000000;
+    font-size: 25px;
+    -webkit-text-stroke: 2px #00f2ea;
+}

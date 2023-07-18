@@ -1,0 +1,128 @@
+@media screen and (max-width:576px) {
+ nav{
+        flex-direction: column;
+        gap: 0px;
+        
+    }
+
+    header{
+        height: auto;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 40px;
+        margin: 62px 0 0 0;
+    }
+
+    .follow-btn{
+        margin:22px 0 0 0 ;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    nav{
+           flex-direction: column;
+           gap: 0px;
+          
+       }
+   
+      
+   
+       nav ul{
+          
+           margin: 62px 0 00 0;
+           
+       }
+   
+      
+   }
+
+   @media screen and (min-width:768px) and (max-width:992px) {
+    nav{
+        flex-direction: column;
+        gap: 0px;
+        
+    }
+
+   
+
+    nav ul{
+       
+        margin: 62px 0 00 0;
+        gap: 90px;
+    }
+
+   }
+   
+
+   @media screen and (min-width:992px) and (max-width:1200px) {
+    nav{
+        gap: 300px;
+        
+       }
+
+       .logo h1 {
+        
+        font-size: 30px;
+        
+    
+    }
+
+    .follow-btn {
+        display: flex;
+        gap: 10px;
+        padding: 17px 5px;
+        border-radius: 8px;
+        
+    
+    }
+   
+     
+   
+    
+      
+   }
+
+
+   @media screen and (min-width:1200px) and (max-width:1400px) {
+    nav{
+        gap: 300px;
+        margin: 20px 0 00 0;
+       }
+
+       .logo h1 {
+        
+        font-size: 30px;
+        
+    
+    }
+
+    .follow-btn {
+        display: flex;
+        gap: 10px;
+        padding: 17px 10px;
+        border-radius: 8px;
+        
+    
+    }
+
+    .fa-youtube , .fa-tiktok {
+      
+        font-size: 18px;
+    }
+    
+   
+   
+     
+   
+    
+      
+   }
+
+
+
+
+
+
