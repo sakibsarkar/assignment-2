@@ -348,7 +348,7 @@ nav ul li:hover {
     width: 342px;
 }
 
-.main-card>p {
+.main-card > p {
     text-align: left;
     margin: 24px 0 0 0;
     color: #534C64;
@@ -374,7 +374,7 @@ nav ul li:hover {
     align-items: center;
     justify-content: center;
     font-family: Work Sans;
-    font-size: 20px;
+    
     font-weight: 600;
     overflow: hidden;
 
@@ -421,9 +421,9 @@ nav ul li:hover {
     cursor: pointer;
 }
 
-.card>.fa-circle-play {
+.card > i {
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     margin: 500px 0 0 0;
     transition: 0.5s;
     opacity: 0;
@@ -437,7 +437,11 @@ nav ul li:hover {
 
 .card p {
     color: #FF42A5;
+    margin: 15px 0 0 0;
+    font-size: 30px;
 }
+
+
 
 /* section 4 */
 .sec4 {
@@ -683,5 +687,4 @@ footer {
     font-family: Work Sans;
     font-size: 16px;
     font-weight: 400;
-  
 }
