@@ -331,7 +331,7 @@ nav ul li:hover {
     font-family: Work Sans;
     font-size: 18px;
     font-weight: 400;
-    margin:  0 0 48PX 0;
+    margin: 0 0 48PX 0;
 
 
 }
@@ -344,7 +344,21 @@ nav ul li:hover {
 
 }
 
-.card-holder{
+.main-card {
+    width: 342px;
+}
+
+.main-card>p {
+    text-align: left;
+    margin: 24px 0 0 0;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.card-holder {
     display: flex;
     gap: 24px;
     justify-content: center;
@@ -354,7 +368,7 @@ nav ul li:hover {
 .card {
     width: 342px;
     height: 400px;
-    border-radius:16px;
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -363,51 +377,51 @@ nav ul li:hover {
     font-size: 20px;
     font-weight: 600;
     overflow: hidden;
-    
+
 }
 
-.card1{
-    background-image: url("/images/Rectangle 4.png");
+.card1 {
+    background-image: url("./images/Rectangle 4.png");
 }
 
 .card1:hover {
     transition: 0.6s;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/Rectangle 4.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/Rectangle 4.png");
     cursor: pointer;
 }
 
 
-.card3{
-    background-image: url("/images/Rectangle 7.png");
+.card3 {
+    background-image: url("./images/Rectangle 7.png");
 }
 
 .card3:hover {
     transition: 0.6s;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/Rectangle 7.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/Rectangle 7.png");
     cursor: pointer;
 }
 
-.card4{
-    background-image: url("/images/Rectangle 6.png");
+.card4 {
+    background-image: url("./images/Rectangle 6.png");
 }
 
 .card4:hover {
     transition: 0.6s;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/Rectangle 6.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/Rectangle 6.png");
     cursor: pointer;
 }
 
-.card2{
-    background-image: url("/images/Rectangle 5.png");
+.card2 {
+    background-image: url("./images/Rectangle 5.png");
 }
 
 .card2:hover {
     transition: 0.6s;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/Rectangle 5.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/Rectangle 5.png");
     cursor: pointer;
 }
 
-.card > .fa-circle-play{
+.card>.fa-circle-play {
     color: white;
     font-size: 30px;
     margin: 500px 0 0 0;
@@ -415,15 +429,88 @@ nav ul li:hover {
     opacity: 0;
 }
 
-.card:hover .fa-circle-play{
-   margin: 0;
-   transition: 0.5s;
-   opacity: 1;
+.card:hover .fa-circle-play {
+    margin: 0;
+    transition: 0.5s;
+    opacity: 1;
 }
 
-.card p{
-    color: #FF42A5 ;
+.card p {
+    color: #FF42A5;
+}
+
+/* section 4 */
+.sec4 {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+
+}
+
+.parent {
+    width: 1428px;
+    display: flex;
+    justify-content: end;
+    
+
+}
+
+.content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.images {
+    background-image: url("./images/Rectangle 55.png");
+    width: 864px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 655px;
+   
+}
+
+.relative {
+    position: relative;
+    top: 61%;
+    right: 13%;
+    width: 43%;
+
 }
 
 
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    width: 65%;
+   
+}
 
+.text h2 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    width: 341px;
+    margin: 0 0 24px 0;
+
+}
+
+.text span {
+    color: #F948B2;
+}
+
+.text p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    width: 353px;
+
+
+
+}
