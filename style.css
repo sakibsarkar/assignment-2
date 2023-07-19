@@ -60,7 +60,7 @@ nav ul li:hover {
 }
 
 .G {
-    color: #ff42f1;
+    color: #FF42A5;
 }
 
 .logo h1 {
@@ -99,7 +99,7 @@ nav ul li:hover {
 
 }
 
-.fa-youtube {
+.u-tube {
     color: red;
     font-size: 25px;
 }
@@ -107,7 +107,7 @@ nav ul li:hover {
 .fa-tiktok {
     color: #000000;
     font-size: 25px;
-    
+
 }
 
 
@@ -549,13 +549,16 @@ nav ul li:hover {
     transition: 0.3s;
 }
 
-.game:hover{
+.game:hover {
     border: 1.5px solid #FF42A5;
     cursor: pointer;
     transition: 0.4s;
 }
 
-.game:nth-child(6),.game:nth-child(7),.game:nth-child(8),.game:nth-child(9){
+.game:nth-child(6),
+.game:nth-child(7),
+.game:nth-child(8),
+.game:nth-child(9) {
     margin: 0 0 0 98px;
 }
 
@@ -566,4 +569,119 @@ nav ul li:hover {
     font-weight: 600;
 
 
+}
+
+/* footer */
+footer {
+    padding: 120px 0;
+    background: #0B0223;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-head h1 {
+    font-family: Work Sans;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin: 0 0 0 20px;
+
+}
+
+.foot-head img {
+    height: 40px;
+    width: 86px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+}
+
+
+.link ul {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+    margin: 56px 0 0 0;
+
+}
+
+.link ul li a {
+    color: white;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+.link ul li a:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 66px 0 74px 0;
+    gap: 50px;
+}
+
+.social a {
+    font-size: 28px;
+    color: white;
+}
+
+.social a:hover {
+    color: rgb(172, 172, 172);
+}
+
+.rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rights ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 0 0 40px 0;
+}
+
+.rights ul li a {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.rights ul li a:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.foot > p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+  
 }
