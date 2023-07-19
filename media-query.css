@@ -122,7 +122,41 @@
     }
 
 
+
+
+    .game-container {
+        
+        grid-template-columns: repeat(2, 165.555px);
+
+        gap: 15%;
+    }
+    
+.game {
+
+    width: 166.66px;
+    height: 53.33px;
+
 }
+
+.game p {
+    font-size: 13.33px;
+}
+
+.game:nth-child(6),
+.game:nth-child(7),
+.game:nth-child(8),
+.game:nth-child(9) {
+    margin: 0;
+}
+
+.game img {
+    width: 40px;
+}
+
+}
+
+
+
 
 
 @media screen and (min-width:576px) and (max-width:768px) {
@@ -237,6 +271,42 @@
         height: 381px;
 
     }
+
+
+    /* secton 5 */
+
+    
+
+    .game-container {
+        
+        grid-template-columns: repeat(3, 165.555px);
+
+        gap: 30px;
+    }
+    
+.game {
+
+    width: 166.66px;
+    height: 53.33px;
+
+}
+
+.game p {
+    font-size: 13.33px;
+}
+
+.game:nth-child(6),
+.game:nth-child(7),
+.game:nth-child(8),
+.game:nth-child(9) {
+    margin: 0;
+}
+
+.game img {
+    width: 40px;
+}
+
+    
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {
@@ -347,6 +417,41 @@
 
     }
 
+    
+    /* secton 5 */
+
+    
+
+    .game-container {
+        
+        grid-template-columns: repeat(4, 165.555px);
+
+        /* gap: 50px; */
+    }
+    
+.game {
+
+    width: 166.66px;
+    height: 53.33px;
+
+}
+
+.game p {
+    font-size: 13.33px;
+}
+
+.game:nth-child(6),
+.game:nth-child(7),
+.game:nth-child(8),
+.game:nth-child(9) {
+    margin: 0;
+}
+
+.game img {
+    width: 40px;
+}
+
+
 
 
 
@@ -431,13 +536,48 @@
         grid-template-columns: repeat(2, 341px);
     }
 
-    .images{
+    .images {
         width: 600px;
-       
+
         height: 480px;
         margin: 0 20px 0 0;
-    
+
     }
+
+    
+    
+    /* secton 5 */
+
+    
+
+    .game-container {
+        
+        grid-template-columns: repeat(4, 165.555px);
+
+
+    }
+    
+.game {
+
+    width: 166.66px;
+    height: 53.33px;
+
+}
+
+.game p {
+    font-size: 13.33px;
+}
+
+.game:nth-child(6),
+.game:nth-child(7),
+.game:nth-child(8),
+.game:nth-child(9) {
+    margin: 0;
+}
+
+.game img {
+    width: 40px;
+}
 
 
 
@@ -540,8 +680,43 @@
     .images {
         width: 751px;
         height: 579px;
-       
+
     }
+
+    
+    
+    /* secton 5 */
+
+    
+
+    .game-container {
+        
+        grid-template-columns: repeat(4, 248px);
+
+        /* gap: 50px; */
+    }
+    
+.game {
+
+    width: 248px;
+    height: 80px;
+
+}
+
+.game p {
+    font-size: 20px;
+}
+
+.game:nth-child(6),
+.game:nth-child(7),
+.game:nth-child(8),
+.game:nth-child(9) {
+    margin: 0;
+}
+
+.game img {
+    width: 40px;
+}
 
 
 
@@ -625,8 +800,44 @@
         width: 751px;
         height: 579px;
         margin: 0 30px 0 0;
-       
+
     }
+
+    
+    
+    /* secton 5 */
+
+    
+
+    .game-container {
+        
+        grid-template-columns: repeat(4, 248px);
+
+        /* gap: 50px; */
+    }
+    
+.game {
+
+    width: 248px;
+    height: 80px;
+
+}
+
+.game p {
+    font-size: 20px;
+}
+
+.game:nth-child(6),
+.game:nth-child(7),
+.game:nth-child(8),
+.game:nth-child(9) {
+    margin: 0;
+}
+
+.game img {
+    width: 40px;
+}
+
 
 
 

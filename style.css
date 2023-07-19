@@ -107,7 +107,7 @@ nav ul li:hover {
 .fa-tiktok {
     color: #000000;
     font-size: 25px;
-    -webkit-text-stroke: 2px #00f2ea;
+    
 }
 
 
@@ -348,7 +348,7 @@ nav ul li:hover {
     width: 342px;
 }
 
-.main-card > p {
+.main-card>p {
     text-align: left;
     margin: 24px 0 0 0;
     color: #534C64;
@@ -451,7 +451,7 @@ nav ul li:hover {
     width: 1428px;
     display: flex;
     justify-content: end;
-    
+
 
 }
 
@@ -469,7 +469,7 @@ nav ul li:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 655px;
-   
+
 }
 
 .relative {
@@ -486,7 +486,7 @@ nav ul li:hover {
     flex-direction: column;
     align-items: self-start;
     width: 65%;
-   
+
 }
 
 .text h2 {
@@ -514,3 +514,57 @@ nav ul li:hover {
 
 
 }
+
+/* section 5 */
+
+.sec5 {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 120px 0;
+}
+
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(5, 248px);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    gap: 49px;
+    row-gap: 57px;
+    margin: 48px 0 0 0;
+}
+
+
+
+.game {
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    border: 1.5px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: white;
+    padding: 0 10px;
+    transition: 0.3s;
+}
+
+.game:hover{
+    border: 1.5px solid #FF42A5;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.game:nth-child(6),.game:nth-child(7),.game:nth-child(8),.game:nth-child(9){
+    margin: 0 0 0 98px;
+}
+
+.game p {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
