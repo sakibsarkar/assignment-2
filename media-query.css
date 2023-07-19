@@ -36,7 +36,7 @@
 
     .btns button {
         color: rgb(255, 255, 255);
-        padding: 21px 31px;
+        padding: 14px 31px;
     }
 
     .icons {
@@ -52,32 +52,41 @@
     /* section 2 */
 
 
-    .sec2{
+    .sec2 {
         flex-direction: column;
         gap: 0;
     }
 
-    .left-side img{
+    .left-side img {
         width: 90%;
-        
+
     }
 
-    .right-side h2{
+    .right-side h2 {
         font-size: 26px;
     }
 
-    .right-side button{
+    .right-side button {
         margin: 0 0 60px 0;
     }
 
-    .right-side{
+    .right-side {
         align-items: center;
     }
 
-    .description{
+    .description {
         text-align: center;
         font-size: 16px;
         width: 85%;
+    }
+
+    .heading h1{
+        text-align: center;
+    }
+
+    .card-holder {
+        flex-direction: column;
+        margin: 70px 0 0 0 ;
     }
 
 }
@@ -123,35 +132,43 @@
     }
 
 
-    
+
     /* section 2 */
 
 
-    .sec2{
+    .sec2 {
         flex-direction: column;
         gap: 0;
     }
 
-    .left-side img{
+    .left-side img {
         width: 90%;
-        
+
     }
 
-    .right-side button{
+    .right-side button {
         margin: 0 0 60px 0;
     }
 
-    .right-side{
+    .right-side {
         align-items: center;
     }
 
-    .description{
+    .description {
         text-align: center;
         font-size: 16px;
         width: 85%;
     }
 
+    /* section 3 */
+    .heading h1{
+        text-align: center;
+    }
 
+    .card-holder {
+        flex-direction: column;
+        margin: 70px 0 0 0 ;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {
@@ -195,32 +212,37 @@
 
 
 
-    
+
     /* section 2 */
 
 
-    .sec2{
+    .sec2 {
         flex-direction: column;
         gap: 0;
     }
 
-    .left-side img{
+    .left-side img {
         width: 90%;
-        
+
     }
 
-    .right-side button{
+    .right-side button {
         margin: 0 0 60px 0;
     }
 
-    .right-side{
+    .right-side {
         align-items: center;
     }
 
-    .description{
+    .description {
         text-align: center;
         font-size: 16px;
         width: 85%;
+    }
+
+    /* section 3 */
+    .card-holder {
+        flex-wrap: wrap;
     }
 
 
@@ -252,7 +274,7 @@
 
     }
 
-    
+
     .sec1 {
         /* flex-direction: column; */
         padding: 0 24px 14px 24px;
@@ -274,33 +296,40 @@
         width: 434px;
         margin: 14px 0 0 0;
     }
-    
+
 
     /* section 2 */
 
-    .sec2{
+    .sec2 {
         gap: 0;
     }
 
-    .right-side{
+    .right-side {
         margin: 0 55px 0 0;
     }
 
 
-    .right-side h1{
+    .right-side h1 {
         font-size: 38px;
     }
 
-    .description{
+    .description {
         font-size: 16px;
-    font-weight: 400;
-    width: 66%;
+        font-weight: 400;
+        width: 66%;
     }
 
-    .left-side img{
+    .left-side img {
         width: calc(100% + 200px);
-        
+
     }
+
+    .card-holder {
+        display: grid;
+        grid-template-rows: repeat(2, 449.331px);
+        grid-template-columns: repeat(2, 341px);
+    }
+
 
 
 
@@ -360,32 +389,41 @@
     }
 
 
-    
+
     /* section 2 */
 
-    .sec2{
+    .sec2 {
         gap: 0;
     }
 
-    .right-side{
+    .right-side {
         margin: 0 55px 0 0;
     }
 
 
-    .right-side h1{
+    .right-side h1 {
         font-size: 38px;
     }
 
-    .description{
+    .description {
         font-size: 16px;
-    font-weight: 400;
-    width: 66%;
+        font-weight: 400;
+        width: 66%;
     }
 
-    .left-side img{
+    .left-side img {
         width: calc(100% + 200px);
-        
+
     }
+
+    
+        .card-holder {
+            display: grid;
+            grid-template-rows: repeat(2, 400px);
+            grid-template-columns: repeat(2, 342px);
+        }
+ 
+
 
 
 
@@ -398,7 +436,7 @@
 
 
 
-    
+
 
 @media screen and (min-width:1400px) and (max-width:1650px) {
     nav {
@@ -440,7 +478,7 @@
     .left {
         background-position-x: 52%;
         width: 53%;
-        
+
     }
 
     .icons {
@@ -453,13 +491,13 @@
     }
 
 
-
+    .card-holder {
+        display: grid;
+        grid-template-rows: repeat(2, 400px);
+        grid-template-columns: repeat(2, 342px);
+    }
 
 
 
 
 }
-
-
-
-    
