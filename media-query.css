@@ -131,8 +131,8 @@
     .game-container {
 
         grid-template-columns: repeat(2, 165.555px);
-
-        gap: 11%;
+        margin: 48px 0 0 -11px;
+        gap: 24px;
     }
 
     .game {
