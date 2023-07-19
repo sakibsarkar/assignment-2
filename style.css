@@ -348,7 +348,7 @@ nav ul li:hover {
     width: 342px;
 }
 
-.main-card>p {
+.main-card > p {
     text-align: left;
     margin: 24px 0 0 0;
     color: #534C64;
@@ -464,7 +464,7 @@ nav ul li:hover {
 }
 
 .images {
-    background-image: url("./images/Rectangle 55.png");
+    background-image: url("./images/Rectangle\ 55.png");
     width: 864px;
     background-repeat: no-repeat;
     background-size: cover;
