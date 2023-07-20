@@ -557,6 +557,12 @@ nav ul li:hover {
     border: 1.5px solid #FF42A5;
     cursor: pointer;
     transition: 0.4s;
+    
+}
+
+.game:hover p{
+    color: #FF42A5;
+    transition: 0.4s;
 }
 
 .game:nth-child(6),
