@@ -36,7 +36,7 @@
 
     .text-icon > p{
         margin: 0 0 0 8px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .btns button {
@@ -101,6 +101,7 @@
     .card-holder {
         flex-direction: column;
         margin: 70px 0 0 0;
+        gap: 50px;
     }
 
     /* section 4 */
