@@ -145,22 +145,24 @@
     /* section 5 */
 
     .sec5 {
-        margin: 0 0 120px 0;
+        padding: 100px 0;
     }
 
     .game-container {
 
-        grid-template-columns: repeat(3, 125px);
-        margin: 48px 0 0 -11px;
+        grid-template-columns: repeat(3, 120px);
+        margin: 0 0 0 -11px;
         row-gap: 12px;
-        column-gap: 24px;
+        column-gap: 14px;
     }
 
     .game {
 
-        width: 125px;
+        width: 120px;
         height: 40px;
         gap: 5px;
+        box-shadow: 0 0 2px #00000024;  /* added this box shadow just bcuz it was not looking good at all. if you dont like this please ignore the box-shadow :))  */
+
         padding: 0 2px;
 
 
