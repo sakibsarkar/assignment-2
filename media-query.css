@@ -34,6 +34,11 @@
         padding: 20px;
     }
 
+    .text-icon > p{
+        margin: 0 0 0 8px;
+        font-size: 18px;
+    }
+
     .btns button {
         color: rgb(255, 255, 255);
         padding: 14px 31px;
@@ -41,6 +46,7 @@
 
     .icons {
         width: auto;
+        margin: 10px 0 0 15px;
     }
 
     .right img {
@@ -64,6 +70,7 @@
 
     .right-side h2 {
         font-size: 26px;
+        text-align: center;
     }
 
     .right-side button {
@@ -84,6 +91,13 @@
         text-align: center;
     }
 
+    .heading p {
+        font-size: 100%;
+        margin: 19px 0 48PX 0;
+        width: 66%;
+
+    }
+
     .card-holder {
         flex-direction: column;
         margin: 70px 0 0 0;
@@ -100,12 +114,18 @@
         align-items: center;
     }
 
-    .text h2,
-    .text p {
+    .text h2 {
+        font-size: 39px;
         text-align: center;
         width: auto;
-
     }
+
+    .text p {
+        font-size: 14px;
+        text-align: center;
+        width: auto;
+    }
+
 
     .text p {
         margin: 0 0 24px 0;
@@ -130,20 +150,24 @@
 
     .game-container {
 
-        grid-template-columns: repeat(2, 165.555px);
+        grid-template-columns: repeat(3, 125px);
         margin: 48px 0 0 -11px;
-        gap: 24px;
+        row-gap: 12px;
+        column-gap: 24px;
     }
 
     .game {
 
-        width: 166.66px;
-        height: 53.33px;
+        width: 125px;
+        height: 40px;
+        gap: 5px;
+        padding: 0 2px;
+
 
     }
 
     .game p {
-        font-size: 13.33px;
+        font-size: 10px;
     }
 
     .game:nth-child(6),
@@ -154,7 +178,7 @@
     }
 
     .game img {
-        width: 40px;
+        width: 20px;
     }
 
 
